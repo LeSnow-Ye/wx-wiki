@@ -1,12 +1,43 @@
+# Site
 site_name: 为先百科
+site_url: https://wx.lesnow.top
 
+# Repository
+repo_name: "LeSnow-Ye/wx-wiki"
+repo_url: "https://github.com/LeSnow-Ye/wx-wiki"
+
+# Contents
+nav:
+  - 简介:
+      - Getting Started: index.md
+      - 编辑规范: intro/edit-standard.md
+      - Markdown 基础: intro/markdown.md
+  - 课程:
+      - 线性代数:
+          - 线代期末复盘: courses/linear-algebra/final.md
+  - TIC:
+      - 海报: tic/posters.md
+
+# Theme
 theme:
   name: material
   language: zh
   palette:
     scheme: slate
     primary: teal
+  features:
+    - search.suggest
+    - search.highlight
+    - search.share
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.path
 
+# Plugins
+plugins:
+  - search
+
+# Markdown
 markdown_extensions:
   - admonition
   - pymdownx.details

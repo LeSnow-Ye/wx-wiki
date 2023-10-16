@@ -1,17 +1,9 @@
-# Welcome to MkDocs
+# 欢迎来到为先百科
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+!!! warning
 
-## Commands
+    建设中
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+**为先百科** 致力于成为一个.......
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+本项目受 [OI Wiki](https://oi-wiki.org/)、[CTF Wiki](https://ctf-wiki.org/) 的启发，在编写过程中参考了诸多资料，在此一并致谢。

@@ -16,9 +16,9 @@
 
 命名 + 放入 `res` 目录，或其子目录中
 
-`![wxc](res/wxc.png)`
+`![wxc](/res/wxc.png)`
 
-![wxc](res/wxc.png)
+![wxc](/res/wxc.png)
 
 ## 空格，标点等
 
