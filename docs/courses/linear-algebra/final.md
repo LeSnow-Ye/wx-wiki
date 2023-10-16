@@ -13,9 +13,9 @@
 - $A^{-1}=\dfrac{A^*}{|A|}$
 - $\begin{bmatrix}A&I_n\end{bmatrix}\stackrel{行变换}{\longrightarrow}\begin{bmatrix}I_n&A\end{bmatrix}$
 - 初等矩阵的逆
-  - 对换矩阵：$P_{ij}^{-1}= P_{ij}$
-  - 倍乘矩阵：$E_{ii; k}^{-1}= E_{ii;\frac{1}{k}}$
-  - 倍加矩阵：$E_{ji; k}^{-1}= E_{ji;-k}$
+    - 对换矩阵：$P_{ij}^{-1}= P_{ij}$
+    - 倍乘矩阵：$E_{ii; k}^{-1}= E_{ii;\frac{1}{k}}$
+    - 倍加矩阵：$E_{ji; k}^{-1}= E_{ji;-k}$
 
 性质
 
@@ -35,7 +35,7 @@ $$A^T=A\\$$
 
 - 概念：对于 $n$ 阶实对称矩阵 $A$，存在 $n$ 阶正交矩阵 $Q$ 和实对角矩阵 $\varLambda$，使得 $A = Q\varLambda Q^T$
 - 性质
-  - 实对称矩阵属于不同特征值的特征向量互相正交
+    - 实对称矩阵属于不同特征值的特征向量互相正交
     正交相似
 - 概念：对于实方阵 $A, B$，如果存在正交矩阵 $Q$ 使得 $Q^TAQ = B$，则称 $A$ 和 $B$ 正交相似
 
@@ -323,8 +323,8 @@ $k\mathbf a=\mathbf b,k\ne0\Rightarrow \mathbf a=\dfrac{1}{k}\mathbf b$
 
 - 子空间的直和：每个元素有唯一分解式，记为 $\mathcal M_1\oplus \mathcal M_2$
 - 直和的判定
-  - $\mathbf 0 =\mathbf m_1+\mathbf m_2,\mathbf m_1\in \mathcal M_1,\mathbf m_2\in \mathcal M_2\Rightarrow \mathbf m_1 =\mathbf m_2 =\mathbf 0$
-  - $\mathcal {M_1\cap M_2}=\{\mathbf 0\}$
+    - $\mathbf 0 =\mathbf m_1+\mathbf m_2,\mathbf m_1\in \mathcal M_1,\mathbf m_2\in \mathcal M_2\Rightarrow \mathbf m_1 =\mathbf m_2 =\mathbf 0$
+    - $\mathcal {M_1\cap M_2}=\{\mathbf 0\}$
 
 矩阵 $A_{m\times n}$ 的子空间
 
