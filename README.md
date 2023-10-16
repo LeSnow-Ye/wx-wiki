@@ -7,4 +7,4 @@
 3. 编辑 /docs/*.md
 4. git push
 
-网站使用的框架是[squidfunk/mkdocs-material](https://github.com/squidfunk/mkdocs-material)，可以参考[它的文档](https://squidfunk.github.io/mkdocs-material/)获得更多信息。
+网站使用的框架是 [squidfunk/mkdocs-material](https://github.com/squidfunk/mkdocs-material)，可以参考 [它的文档](https://squidfunk.github.io/mkdocs-material/) 获得更多信息。
