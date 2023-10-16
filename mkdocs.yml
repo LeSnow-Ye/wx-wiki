@@ -37,6 +37,7 @@ theme:
 # Plugins
 plugins:
   - search
+  - glightbox
 
 # Markdown
 markdown_extensions:

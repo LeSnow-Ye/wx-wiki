@@ -14,11 +14,11 @@
 
 ### 图片
 
-图片请放入当前目录的 `res` 目录，或其子目录中。
+图片请放入与当前文件同名的目录中。例如：
 
-`![wxc](res/wxc.png)`
+`![wxc](edit-standard/wxc.png)`
 
-![wxc](res/wxc.png)
+![wxc](edit-standard/wxc.png)
 
 ## 空格，标点等
 
