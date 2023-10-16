@@ -1,5 +1,7 @@
 # 清华大学为先书院百科 | wx-wiki
 
+[为先百科网址](https://wx.lesnow.top/)
+
 ## 贡献方法
 
 1. [如何给开源项目贡献代码](https://gist.github.com/zxhfighter/62847a087a2a8031fbdf) 或参考其他为 git 项目贡献源码的教程
