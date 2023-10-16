@@ -1,220 +1,229 @@
 # Markdown Guide
 
-## Basic Markdown Formatting
+## Headers (atx style)
 
-### Headings
+```markdown
+# h1
+## h2
+### h3
+#### h4
+##### h5
+###### h6
+```
 
-    # This is an <h1> tag
-    ## This is an <h2> tag
-    ### This is an <h3> tag
-    #### This is an <h4> tag
-    ##### This is an <h5> tag
-    ###### This is an <h6> tag
+## Headers (setext style)
 
-### Emphasis
+```markdown
+Header 1
+========
+```
 
-    *This text will be italic*
-    _This will also be italic_
-    
-    **This text will be bold**
-    __This will also be bold__
-    
-    _You **can** combine them_
+```markdown
+Header 2
+--------
+```
 
-Result:
+## Blockquotes
 
-*This text will be italic*
+```markdown
+> This is
+> a blockquote
+>
+> > Nested
+> > Blockquote
+```
 
-*This will also be italic*
+> This is
+> a blockquote
+>
+> > Nested
+> > Blockquote
 
-**This text will be bold**
+## Unordered List {.row-span-2}
 
-**This will also be bold**
+```markdown
+- Item 1
+- Item 2
+    - item 3a
+    - item 3b
+```
 
-*You **can** combine them*
+- Item 1
+- Item 2
+    - item 3a
+    - item 3b
 
-### Lists
+or
 
-**Inordered:**
+```markdown
+* Item 1
+* Item 2
+```
 
-    * Milk
-    * Bread
-        * Wholegrain
-    * Butter
+or
 
-Result:
+```markdown
++ Item 1
++ Item 2
+```
 
-* Milk
-* Bread
-  * Wholegrain
-* Butter
+or
 
-**Ordered:**
+```markdown
+- [ ] Checkbox off
+- [x] Checkbox on
+```
 
-    1. Tidy the kitchen  
-    2. Prepare ingredients  
-    3. Cook delicious things
+- [ ] Checkbox off
+- [x] Checkbox on
 
-Result:
+## Ordered List
 
-1. Tidy the kitchen  
-2. Prepare ingredients  
-3. Cook delicious things
+```markdown
+1. Item 1
+2. Item 2
+3. Item 3
+```
 
-### Images
+1. Item 1
+2. Item 2
+3. Item 3
 
-    ![Alt Text](url)
+## Links
 
-Result:
+```markdown
+[link](http://example.com)
 
-![m'lady](http://i.imgur.com/v8IVDka.jpg)
-
-### Links
-
-    [link](http://example.com)
-
-Result:
+<http://example.com>
+```
 
 [link](http://example.com)
 
-### Blockquotes
+<http://example.com>
 
-    As Kanye West said:
+## Emphasis
 
-    > We're living the future so
-    > the present is our past.
+```markdown
+*italic*
+_italic_
+```
 
-Result:
+*italic*
 
-As Kanye West said:
-> We're living the future so
-> the present is our past.
+```markdown
+**bold**
+__bold__
+```
 
-### Horizontal Rules
+**bold**
 
-    ---
+```markdown
+~~struck out~~
+```
 
-Result:
+~~struck out~~
+
+## Horizontal line
+
+Hyphens
+
+```markdown
+---
+```
+
+Asterisks
+
+```markdown
+***
+```
+
+Underscores
+
+```markdown
+___
+```
 
 ---
 
-### Code Snippets
+## Code
 
-    Indenting by 4 spaces will turn an entire paragraph into a code-block.
-
-Result:
-
-    .my-link {
-        text-decoration: underline;
-    }
-
-### Reference Lists & Titles
-
-    **The quick brown [fox][1], jumped over the lazy [dog][2].**
-
-    [1]: https://en.wikipedia.org/wiki/Fox "Wikipedia: Fox"
-    [2]: https://en.wikipedia.org/wiki/Dog "Wikipedia: Dog"
-
-Result:
-
-**The quick brown [fox][1], jumped over the lazy [dog][2].**
-
-[1]: https://en.wikipedia.org/wiki/Fox "Wikipedia: Fox"
-[2]: https://en.wikipedia.org/wiki/Dog "Wikipedia: Dog"
-
-### Escaping
-
-    \*literally\*
-
-Result:
-
-\*literally\*
-
-### Embedding HTML
-
-    <button class="button-save large">Big Fat Button</button>
-
-Result:
-
-<button class="button-save large">Big Fat Button</button>
-
-## Advanced Markdown
-
-Note: Some syntax which is not standard to native Markdown. They're extensions of the language.
-
-### Strike-throughs
-
-    ~~deleted words~~
-
-Result:
-
-~~deleted words~~
-
-### Automatic Links
-
-    https://ghost.org
-
-Result:
-
-<https://ghost.org>
-
-### Markdown Footnotes
-
-Work in [Ghost](https://ghost.org/):
-
-    The quick brown fox[^1] jumped over the lazy dog[^2].
-
-    [^1]: Foxes are red
-    [^2]: Dogs are usually not red
-
-Result:
-
-The quick brown fox[^1] jumped over the lazy dog[^2].
-
-[^1]: Foxes are red
-[^2]: Dogs are usually not red
-
-## GitHub Flavored Markdown
-
-### Syntax Highlighting
-
-    ```javascript
-    function fancyAlert(arg) {
-      if(arg) {
-        $.facebox({div:'#foo'})
-      }
-    }
-    ```
-
-Result:
-
+~~~markdown
 ```javascript
-function fancyAlert(arg) {
-  if(arg) {
-    $.facebox({div:'#foo'})
-  }
-}
+console.log("This is a block code")
+```
+~~~
+
+### inline code
+
+```markdown
+`Inline code` has back-ticks around it
 ```
 
-### Task Lists
+`Inline code` has back-ticks around it
 
-    - [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
-    - [x] list syntax required (any unordered or ordered list supported)
-    - [x] this is a complete item
-    - [ ] this is an incomplete item
+## Tables {.col-span-2}
 
-Result:
+```markdown
+| Left column | Center column | Right column |
+|:------------|:-------------:|-------------:|
+| Cell 1      |   Centered    |        $1600 |
+| Cell 2      |    Cell 3     |          $12 |
+```
 
-* [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
-* [x] list syntax required (any unordered or ordered list supported)
-* [x] this is a complete item
-* [ ] this is an incomplete item
+| Left column | Center column | Right column |
+|:------------|:-------------:|-------------:|
+| Cell 1      |   Centered    |        $1600 |
+| Cell 2      |    Cell 3     |          $12 |
 
-### Tables
+Simple style
 
-You can create tables by assembling a list of words and dividing them with hyphens `-` (for the first row), and then separating each column with a pipe `|`:
+```markdown
+Left column | Center column | Right column
+:----------:|:-------------:|:-----------:
+   Cell 1   |   Centered    |    $1600
+   Cell 2   |    Cell 3     |     $12
+```
 
-First Header | Second Header
------------- | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
+Left column | Center column | Right column
+:----------:|:-------------:|:-----------:
+   Cell 1   |   Centered    |    $1600
+   Cell 2   |    Cell 3     |     $12
+
+A markdown table generator: [tableconvert.com](https://tableconvert.com/)
+
+## Images
+
+```markdown
+![Logo](/images/logo.png)
+
+![Alt Text](url)
+```
+
+### Image with link
+
+```markdown
+[![Logo](/images/logo.png)](https://github.com/)
+
+[![Alt Text](image_url)](link_url)
+
+[![Logo](https://www.wxc.tsinghua.edu.cn/images/logo.png)](https://www.wxc.tsinghua.edu.cn)
+```
+
+[![Logo](https://www.wxc.tsinghua.edu.cn/images/logo.png)](https://www.wxc.tsinghua.edu.cn)
+
+## Backslash escapes
+
+| Characters | Escape | Description |
+|------------|--------|-------------|
+| \\         | \\\\   | backslash   |
+| \`         | \\\`   | backtick              |
+| \*         | \\\*   | asterisk              |
+| \_         | \\\_   | underscore            |
+| \{\}       | \\\{\} | curly braces          |
+| \[\]       | \\\[\] | square brackets       |
+| \(\)       | \\\(\) | parentheses           |
+| \#         | \\\#   | hash mark             |
+| \+         | \\\+   | plus sign             |
+| \-         | \\\-   | minus sign \(hyphen\) |
+| \.         | \\\.   | dot                   |
+| \!         | \\\!   | exclamation mark      |
