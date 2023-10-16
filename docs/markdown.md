@@ -10,7 +10,7 @@
     #### This is an <h4> tag
     ##### This is an <h5> tag
     ###### This is an <h6> tag
-    
+
 ### Emphasis
 
     *This text will be italic*
@@ -20,18 +20,18 @@
     __This will also be bold__
     
     _You **can** combine them_
-    
+
 Result:
 
 *This text will be italic*
 
-_This will also be italic_
+*This will also be italic*
 
 **This text will be bold**
 
-__This will also be bold__
+**This will also be bold**
 
-_You **can** combine them_
+*You **can** combine them*
 
 ### Lists
 
@@ -46,7 +46,7 @@ Result:
 
 * Milk
 * Bread
-    * Wholegrain
+  * Wholegrain
 * Butter
 
 **Ordered:**
@@ -72,7 +72,7 @@ Result:
 ### Links
 
     [link](http://example.com)
-    
+
 Result:
 
 [link](http://example.com)
@@ -156,7 +156,7 @@ Result:
 
 Result:
 
-https://ghost.org
+<https://ghost.org>
 
 ### Markdown Footnotes
 
@@ -205,10 +205,10 @@ function fancyAlert(arg) {
 
 Result:
 
-- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
-- [x] list syntax required (any unordered or ordered list supported)
-- [x] this is a complete item
-- [ ] this is an incomplete item
+* [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+* [x] list syntax required (any unordered or ordered list supported)
+* [x] this is a complete item
+* [ ] this is an incomplete item
 
 ### Tables
 
