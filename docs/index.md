@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # 欢迎来到为先百科
 
 !!! warning
