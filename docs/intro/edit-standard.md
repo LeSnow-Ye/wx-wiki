@@ -20,6 +20,18 @@
 
 ![wxc](edit-standard/wxc.png)
 
+如果使用 vscode 进行编辑，本 repo 中包含了该路径设置，将自动将粘贴的图片保存在相应目录下。
+
+`.vscode/settings.json`:
+
+```json
+{
+    "markdown.copyFiles.destination": {
+        "/docs/**/*": "${documentDirName}/${documentBaseName}/"
+    }
+}
+```
+
 ## 空格，标点等
 
 参考 [中文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines)。
