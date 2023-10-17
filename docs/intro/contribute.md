@@ -11,7 +11,7 @@
 - [Git](https://git-scm.com/downloads)
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Python](https://www.python.org/downloads/)
-- [GitHub Desktop](https://desktop.github.com/) - 使用 GitHub Desktop，可以将所有需要手动敲 git 命令的过程变成图形化界面操作
+- [GitHub Desktop](https://desktop.github.com/)
 
 ## 步骤
 
@@ -81,6 +81,10 @@
 6. 使用 `git push` 命令将你的本地分支推送到你的 GitHub Fork `xxx/wx-wiki`
 7. 访问 <https://github.com/xxx/wx-wiki>，点击 “New Pull Request” 按钮，创建一个 PR (Pull Request)
 8. 等待 PR 被合并到主分支，之后将可以在 <https://wx.lesnow.top> 上看到更改
+
+事实上一些软件可以减少甚至完全取缔手动输入 git 命令，比如 [Visual Studio Code](https://code.visualstudio.com/) 或者 [GitHub Desktop](https://desktop.github.com/)
+
+![vscode](contribute/vscode.png)
 
 ### Git
 
