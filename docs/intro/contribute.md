@@ -77,10 +77,11 @@
 2. 编辑 mkdocs.yml 中的 nav 部分
 3. [可选] 使用 `mkdocs serve` 在本地调试，参考 [本地测试](#_5)
 4. 编辑完成之后，使用 `git add .` 来将所有的文件暂存，以准备 commit (提交)
-5. 使用 `git commit` 命令提交这些更改，你需要对提交的内容进行简要描述。
-6. 使用 `git push` 命令将你的本地分支推送到你的 GitHub Fork `xxx/wx-wiki`
-7. 访问 <https://github.com/xxx/wx-wiki>，点击 “New Pull Request” 按钮，创建一个 PR (Pull Request)
-8. 等待 PR 被合并到主分支，之后将可以在 <https://wx.lesnow.top> 上看到更改
+5. 使用 `git commit` 命令提交这些更改（这两步可以合并为 `git commit -a`）
+6. 
+7. 使用 `git push` 命令将你的本地分支推送到你的 GitHub Fork `xxx/wx-wiki`
+8. 访问 <https://github.com/xxx/wx-wiki>，点击 “New Pull Request” 按钮，创建一个 PR (Pull Request)
+9. 等待 PR 被合并到主分支，之后将可以在 <https://wx.lesnow.top> 上看到更改
 
 事实上一些软件可以减少甚至完全取缔手动输入 git 命令，比如 [Visual Studio Code](https://code.visualstudio.com/) 或者 [GitHub Desktop](https://desktop.github.com/)
 
