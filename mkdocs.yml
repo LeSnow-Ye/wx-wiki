@@ -34,7 +34,8 @@ theme:
     - navigation.tracking
     - navigation.tabs
     - navigation.path
-
+    - content.code.copy
+    
 # Plugins
 plugins:
   - search
