@@ -8,7 +8,7 @@
 
 你可能需要以下软件，除 git 外不是必须的，但它们很有用，可以简化下面的步骤，减少学习成本，尤其是 git 命令们。
 
-- [Git](https://git-scm.com/downloads)
+- [Git](https://git-scm.com/downloads) - 本文以全默认安装为例，这时 git 使用的编辑器是 vim
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Python](https://www.python.org/downloads/)
 - [GitHub Desktop](https://desktop.github.com/)
@@ -78,12 +78,17 @@
 3. [可选] 使用 `mkdocs serve` 在本地调试，参考 [本地测试](#_5)
 4. 编辑完成之后，使用 `git add .` 来将所有的文件暂存，以准备 commit (提交)
 5. 使用 `git commit` 命令提交这些更改（这两步可以合并为 `git commit -a`）
-6. 
+6. 在图示窗口对提交的内容进行简要描述
+
+    ![vim](image.png)
+
+    这是 vim 编辑器（又一个大坑），简要来说，按 `i` 进入编辑模式 (`--INSERT--`)，之后可以正常输入你的描述，输入 `ESC` 以回到命令模式，之后依次按 `:wq` 并回车以保存并退出。
+
 7. 使用 `git push` 命令将你的本地分支推送到你的 GitHub Fork `xxx/wx-wiki`
 8. 访问 <https://github.com/xxx/wx-wiki>，点击 “New Pull Request” 按钮，创建一个 PR (Pull Request)
 9. 等待 PR 被合并到主分支，之后将可以在 <https://wx.lesnow.top> 上看到更改
 
-事实上一些软件可以减少甚至完全取缔手动输入 git 命令，比如 [Visual Studio Code](https://code.visualstudio.com/) 或者 [GitHub Desktop](https://desktop.github.com/)
+事实上一些软件可以减少甚至完全取缔手动输入 git 命令，以及跳过新手极其不友好的 vim 环节，比如 [Visual Studio Code](https://code.visualstudio.com/) 或者 [GitHub Desktop](https://desktop.github.com/)：
 
 ![vscode](contribute/vscode.png)
 
