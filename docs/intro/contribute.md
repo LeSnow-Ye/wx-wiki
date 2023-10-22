@@ -100,6 +100,12 @@ Git 是一个分布式版本控制系统，它允许多人协同开发并跟踪�
 
     TODO
 
+### 如何编辑
+
+网站核心的内容是 Markdown 文件，拓展名 `.md`，它们是具体内容的载体，采用 [Markdown 语法](/intro/markdown)。你可以使用 vscode 来编辑、预览 Markdown 文件。
+
+网站的目录结构基本上是文件结构的映射。例如，`/docs/intro/contribute.md` 所对应的网页是 <https://wx.lesnow.top/intro/contribute>，但由于网站由中文呈现，你还需要额外编辑 `/mkdocs.yml` 文件以确定页面标题，参照已有内容编辑即可。
+
 ### 本地测试
 
 由于在 merge 前，你并不知道你的 md 文件的最终在网页上的呈现效果，你可以在本地搭建一个测试环境：
