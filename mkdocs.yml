@@ -13,6 +13,12 @@ nav:
       - 贡献方法: intro/contribute.md
       - 编辑规范: intro/edit-standard.md
       - Markdown 基础: intro/markdown.md
+  - 资源:
+      - 实用网站: resources/links.md
+      - 实用软件: resources/softwares.md
+      # - 网站介绍:
+      - 软件介绍:
+          - Visual Studio Code: resources/softwares/vscode.md
   - 课程:
       - 线性代数:
           - 线代期末复盘: courses/linear-algebra/final.md
@@ -34,6 +40,7 @@ theme:
     - navigation.tracking
     - navigation.tabs
     - navigation.path
+    - navigation.sections
     - content.code.copy
     
 # Plugins
