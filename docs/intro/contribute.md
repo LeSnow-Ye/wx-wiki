@@ -6,12 +6,18 @@
 
 ## 软件
 
+!!! note
+
+    对于新人的第一次贡献（提交 pr）来说，实际上一个浏览器就足够了（~~好吧你可能还需要一个能够访问 GitHub 的良好网络环境~~），但是对于**正式的**的贡献来说，网页端是并不优雅的（可以类比云游戏和本地游戏），在本地你可以获得一个更加舒适、快捷的编辑体验。同时，下面一些软件也是以后学习、科研等等中非常实用、常用的工具，大概率以后你还会再与它们相见。
+
+    因此，建议新人先通读下面的步骤，然后尝试在浏览器上提交你的第一个 pr，之后你可以探索如何在本地进行测试与贡献。
+
 你可能需要以下软件，除 git 外不是必须的，但它们很有用，可以简化下面的步骤，减少学习成本，尤其是 git 命令们。
 
 - [Git](https://git-scm.com/downloads) - 本文以全默认安装为例，这时 git 使用的编辑器是 vim
-- [Visual Studio Code](https://code.visualstudio.com/)
-- [Python](https://www.python.org/downloads/)
-- [GitHub Desktop](https://desktop.github.com/)
+- [Visual Studio Code](https://code.visualstudio.com/) - 强大的文本/代码编辑器
+- [Python](https://www.python.org/downloads/) - 不用多说了吧
+- *[GitHub Desktop](https://desktop.github.com/) - 不那么常用，但偶尔 git 处理 GitHub 的 repo 时会抽风，这时用 GitHub Desktop 大概率能解决问题。
 
 ## 步骤
 
@@ -90,7 +96,8 @@
 
 事实上一些软件可以减少甚至完全取缔手动输入 git 命令，以及跳过新手极其不友好的 vim 环节，比如 [Visual Studio Code](https://code.visualstudio.com/) 或者 [GitHub Desktop](https://desktop.github.com/)：
 
-![vscode](contribute/vscode.png)
+![VSCode](contribute/image-1.png)
+
 
 ### Git
 
