@@ -11,6 +11,7 @@
 - [软件学院互助文档](https://ssast-readme.github.io/)
 - [清华大学飞跃手册](https://feiyue.online/)
 - [计算机系学生科协技能引导文档 - SAST skill docs](https://docs.net9.org/)
+- [未央学习](https://weyoung-learn.github.io/)
 - [华清大学课程攻略共享计划](https://in.closed.social:9443/pastExam/)
 
 ## 综合
