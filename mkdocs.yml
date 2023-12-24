@@ -20,6 +20,13 @@ nav:
       - 软件介绍:
           - Visual Studio Code: resources/softwares/vscode.md
   - 课程:
+      - 微积分:
+          - T1: courses/calculus/t1.md 
+          - T2: courses/calculus/t2.md 
+          - T3: courses/calculus/t3.md 
+      - 基础物理:
+          - 光学: courses/basic-physics/optics.md
+          - 量子力学: courses/basic-physics/quantum-mechanics.md
       - 线性代数:
           - 线代期末复盘: courses/linear-algebra/final.md
   - TIC:
