@@ -9,7 +9,7 @@ repo_url: "https://github.com/LeSnow-Ye/wx-wiki"
 # Contents
 nav:
   - 简介:
-      - Getting Started: index.md
+      - 主页: index.md
       - 贡献方法: intro/contribute.md
       - 编辑规范: intro/edit-standard.md
       - Markdown 基础: intro/markdown.md
@@ -49,7 +49,7 @@ theme:
     - navigation.path
     - navigation.sections
     - content.code.copy
-    
+
 # Plugins
 plugins:
   - search
