@@ -8,9 +8,9 @@
 
 - [基础物理学（2）/小班辅导/基础物理学2半期小班辅导录屏.mp4](https://cloud.tsinghua.edu.cn/d/e73dd81a5e1d4ed1bd30/files/?p=%2F%E5%9F%BA%E7%A1%80%E7%89%A9%E7%90%86%E5%AD%A6%EF%BC%882%EF%BC%89%2F%E5%B0%8F%E7%8F%AD%E8%BE%85%E5%AF%BC%2F%E5%9F%BA%E7%A1%80%E7%89%A9%E7%90%86%E5%AD%A62%E5%8D%8A%E6%9C%9F%E5%B0%8F%E7%8F%AD%E8%BE%85%E5%AF%BC%E5%BD%95%E5%B1%8F.mp4)
 - [微积分T（2）/寒假预习](https://cloud.tsinghua.edu.cn/d/e73dd81a5e1d4ed1bd30/?p=%2F%E5%BE%AE%E7%A7%AF%E5%88%86T%EF%BC%882%EF%BC%89%2F%E5%AF%92%E5%81%87%E9%A2%84%E4%B9%A0&mode=list) 中的视频
-- [GeoGebra](https://www.geogebra.org/) 离线版安装包，[云盘原档](<https://cloud.tsinghua.edu.cn/d/e73dd81a5e1d4ed1bd30/?p=%2F%E5%BE%AE%E7%A7%AF%E5%88%86T%EF%BC%881%EF%BC%89%2F%E8%BD%AF%E4%BB%B6-Geogebra&mode=list>
+- [GeoGebra](https://www.geogebra.org/) 离线版安装包，你可以在[这里](https://www.geogebra.org/download)下到最新的，或者直接使用网页版。
 
-移除了所有的重复文件（保留了路径最短的一个）。
+移除了所有的重复文件。（保留了路径最短的一个）
 
 > 2023/12/25 ver.
 
