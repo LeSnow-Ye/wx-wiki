@@ -31,7 +31,8 @@ nav:
       - 线性代数:
           - 线代期末复盘: courses/linear-algebra/final.md
   - TIC:
-      - 海报: tic/posters.md
+      - TIC2: tic/tic2.md
+      #- 海报: tic/posters.md
 
 # Theme
 theme:
