@@ -963,12 +963,12 @@
 - [01.Intro.pdf](sharing-project/%E7%94%B5%E7%94%B5%EF%BC%881%EF%BC%89/%E7%94%B5%E7%94%B5%281%29-%E5%BC%A0%E6%B2%95%E7%90%B3/%E8%AF%BE%E4%BB%B6/01.Intro.pdf)
 - [02.ResCir.pdf](sharing-project/%E7%94%B5%E7%94%B5%EF%BC%881%EF%BC%89/%E7%94%B5%E7%94%B5%281%29-%E5%BC%A0%E6%B2%95%E7%90%B3/%E8%AF%BE%E4%BB%B6/02.ResCir.pdf)
 - [03.CirAnaTech.pdf](sharing-project/%E7%94%B5%E7%94%B5%EF%BC%881%EF%BC%89/%E7%94%B5%E7%94%B5%281%29-%E5%BC%A0%E6%B2%95%E7%90%B3/%E8%AF%BE%E4%BB%B6/03.CirAnaTech.pdf)
-- [04.Cap&Ind.pdf](sharing-project/%E7%94%B5%E7%94%B5%EF%BC%881%EF%BC%89/%E7%94%B5%E7%94%B5%281%29-%E5%BC%A0%E6%B2%95%E7%90%B3/%E8%AF%BE%E4%BB%B6/04.Cap%26Ind.pdf)
+- [04.Cap&Ind.pdf](sharing-project/%E7%94%B5%E7%94%B5%EF%BC%881%EF%BC%89/%E7%94%B5%E7%94%B5%281%29-%E5%BC%A0%E6%B2%95%E7%90%B3/%E8%AF%BE%E4%BB%B6/04.Cap&Ind.pdf)
 - [05.TransCir.pdf](sharing-project/%E7%94%B5%E7%94%B5%EF%BC%881%EF%BC%89/%E7%94%B5%E7%94%B5%281%29-%E5%BC%A0%E6%B2%95%E7%90%B3/%E8%AF%BE%E4%BB%B6/05.TransCir.pdf)
 - [06.Steady.pdf](sharing-project/%E7%94%B5%E7%94%B5%EF%BC%881%EF%BC%89/%E7%94%B5%E7%94%B5%281%29-%E5%BC%A0%E6%B2%95%E7%90%B3/%E8%AF%BE%E4%BB%B6/06.Steady.pdf)
 - [07.FreqAna.pdf](sharing-project/%E7%94%B5%E7%94%B5%EF%BC%881%EF%BC%89/%E7%94%B5%E7%94%B5%281%29-%E5%BC%A0%E6%B2%95%E7%90%B3/%E8%AF%BE%E4%BB%B6/07.FreqAna.pdf)
 - [08.network.pdf](sharing-project/%E7%94%B5%E7%94%B5%EF%BC%881%EF%BC%89/%E7%94%B5%E7%94%B5%281%29-%E5%BC%A0%E6%B2%95%E7%90%B3/%E8%AF%BE%E4%BB%B6/08.network.pdf)
-- [09.OpAmp&Feedback.pdf](sharing-project/%E7%94%B5%E7%94%B5%EF%BC%881%EF%BC%89/%E7%94%B5%E7%94%B5%281%29-%E5%BC%A0%E6%B2%95%E7%90%B3/%E8%AF%BE%E4%BB%B6/09.OpAmp%26Feedback.pdf)
+- [09.OpAmp&Feedback.pdf](sharing-project/%E7%94%B5%E7%94%B5%EF%BC%881%EF%BC%89/%E7%94%B5%E7%94%B5%281%29-%E5%BC%A0%E6%B2%95%E7%90%B3/%E8%AF%BE%E4%BB%B6/09.OpAmp&Feedback.pdf)
 - [10.wrapup.pdf](sharing-project/%E7%94%B5%E7%94%B5%EF%BC%881%EF%BC%89/%E7%94%B5%E7%94%B5%281%29-%E5%BC%A0%E6%B2%95%E7%90%B3/%E8%AF%BE%E4%BB%B6/10.wrapup.pdf)
 
 ### 电电（1）-李国林A班
