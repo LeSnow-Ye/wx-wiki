@@ -1,6 +1,17 @@
 # 为先共享计划
 
-本站对[云盘版本](https://cloud.tsinghua.edu.cn/d/e73dd81a5e1d4ed1bd30/)的镜像，
+[大三复习资料](https://cloud.tsinghua.edu.cn/d/68ee3e34d5604702b71b/) 暂未镜像，可在云盘自取，包括以下内容：
+
+- 测试与检测技术基础	
+- 概率论与数理统计	
+- 概率论与随机过程	
+- 光学工程基础(1)		
+- 控制工程基础		
+- 随机数学与统计		
+
+---
+
+本页为为先百科对[云盘版本](https://cloud.tsinghua.edu.cn/d/e73dd81a5e1d4ed1bd30/)的镜像，
 你也可以使用 [Xiang-cd/THU-downloader](https://github.com/Xiang-cd/THU-downloader)
 或 [chenyifanthu/THU-Cloud-Downloader](https://github.com/chenyifanthu/THU-Cloud-Downloader) 自己将云盘内容下载到本地。
 
